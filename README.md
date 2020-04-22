@@ -44,6 +44,9 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,8 +68,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+ at the end of the console log line, the the last return of the code.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+ the function we are invoking remains the same, but the results can change.
+
 c. What is the lexical scope of `newRoll`? 
+ new roll belongs to the function personalDice.
 
 ### Task 3 - Stretch Goals
 
